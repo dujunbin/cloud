@@ -8,8 +8,8 @@ spring:
       server:
         git:
           uri: https://gitee.com/bbinbin/cloudConfig
-          username: 15081852619
-          password: 748913979adu
+          username: xxxxxxxx
+          password: xxxxxxxx
           basedir: D:\zookeeper\data\zookeeper
     zookeeper:
       connect-string: localhost:2181
