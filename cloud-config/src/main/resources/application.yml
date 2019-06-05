@@ -1,0 +1,22 @@
+server:
+  port: 7000
+spring:
+  application:
+    name: config
+  cloud:
+    config:
+      server:
+        git:
+          uri: https://gitee.com/bbinbin/cloudConfig
+          username: 15081852619
+          password: 748913979adu
+          basedir: D:\zookeeper\data\zookeeper
+    zookeeper:
+      connect-string: localhost:2181
+  rabbitmq:
+    virtual-host: /
+    host: 127.0.0.1
+    username: guest
+    password: guest
+
+

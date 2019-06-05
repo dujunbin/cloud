@@ -1,0 +1,17 @@
+server:
+  port: 10080
+spring:
+  application:
+    name: order
+  cloud:
+    config:
+     discovery:
+       enabled: true
+       service-id: config
+     profile: dev
+    zookeeper:
+      discovery:
+        register: true
+      connect-string: localhost:2181
+
+
